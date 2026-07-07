@@ -1,0 +1,38 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    display: block;
+}
+
+.card {
+    background-color: #c2b29d;
+    border: 3px solid #b81d24;
+    padding: 30px;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    border-radius: 60px 15px 60px 15px; 
+}
+
+.text-box {
+    background-color: #005a43;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.card-link {
+    color: #3b1e54;
+    text-decoration: underline;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.card-link:hover {
+    color: #b81d24;
+}

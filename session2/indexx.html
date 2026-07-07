@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+</head>
+<body>
+
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Register Form</legend>
+
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" maxlength="5" pattern="[A-Za-z]+" title="Letters only, max 5 characters" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" pattern="^(010|011|012|015)[0-9]{8}$" title="Must be 11 digits and start with 010, 011, 012, or 015" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="file">Upload Image (.png only):</label>
+                <input type="file" id="file" name="userImage" accept=".png" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="course">Courses:</label>
+                <input list="courses" id="course" name="course" placeholder="Type to filter...">
+                <datalist id="courses">
+                    <option value="Frontend Development">
+                    <option value="Backend Development">
+                    <option value="UI/UX Design">
+                    <option value="Mobile Application">
+                    <option value="WordPress">
+                </datalist>
+            </div>
+            <br>
+
+            <div>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="registrationDate" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="comment" pattern="[A-Za-z\s]+" title="Letters and spaces only" required></textarea>
+            </div>
+            <br>
+
+            <div>
+                <label for="rangeInput">Range (100 - 200):</label>
+                <input type="range" id="rangeInput" name="formRange" min="100" max="200" value="150">
+            </div>
+            <br>
+
+            <div>
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" checked>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            <br>
+
+            <div>
+                <label>Tracks:</label>
+                <input type="checkbox" id="track1" name="tracks" value="web">
+                <label for="track1">Web Design</label>
+                
+                <input type="checkbox" id="track2" name="tracks" value="uiux">
+                <label for="track2">UI/UX</label>
+                
+                <input type="checkbox" id="track3" name="tracks" value="mobile">
+                <label for="track3">Mobile Development</label>
+            </div>
+            <br>
+
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
+
+
+
+<br>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design Task</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="card">
+        <p class="text-box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit vitae ad aspernatur libero obcaecati repudiandae doloremque quos veniam neque nobis.
+        </p>
+        <a href="https://www.google.com" target="_blank" class="card-link">Google</a>
+    </div>
+
+    <div class="card">
+        <p class="text-box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit vitae ad aspernatur libero obcaecati repudiandae doloremque quos veniam neque nobis.
+        </p>
+        <a href="https://www.google.com" target="_blank" class="card-link">Google</a>
+    </div>
+
+</body>
+</html>
