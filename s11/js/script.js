@@ -1,0 +1,6 @@
+ var deg=prompt("enter your degree")
+if(deg===null||deg==="") alert("not founded")
+   else if(deg>90) alert("A")
+    else if(deg>80 && deg<90) alert("B")
+     else if(deg>70 && deg<80) alert("C")
+       else alert("F")
